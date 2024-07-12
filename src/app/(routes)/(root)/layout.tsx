@@ -1,10 +1,10 @@
 import { Inter } from 'next/font/google'
 
 import Footer from '@/core/components/layout/Footer'
+import { APP_INDEX_DESCRIPTION, APP_INDEX_TITLE } from '@/core/constants'
 
 import type { Metadata } from 'next'
-import './globals.css'
-import { APP_INDEX_DESCRIPTION, APP_INDEX_TITLE } from '@/core/constants'
+import '../../globals.css'
 
 export const metadata: Metadata = {
   title: APP_INDEX_TITLE,

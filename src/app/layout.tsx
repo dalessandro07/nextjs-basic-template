@@ -4,7 +4,7 @@ import Footer from '@/core/components/layout/Footer'
 import { APP_INDEX_DESCRIPTION, APP_INDEX_TITLE } from '@/core/constants'
 
 import type { Metadata } from 'next'
-import '../../globals.css'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: APP_INDEX_TITLE,
